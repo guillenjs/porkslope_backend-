@@ -183,8 +183,20 @@ lists = [
     }
 ]
 
+joiner = [
+    { list_id: 1, item_id: 1},
+    { list_id: 1, item_id: 20},
+    { list_id: 1, item_id: 40},
+    { list_id: 1, item_id: 3},
+    { list_id: 1, item_id: 10},
+    { list_id: 1, item_id: 80},
+    { list_id: 1, item_id: 60},
+    { list_id: 1, item_id: 11},
+]
+
 
 Category.create(categories)
 Item.create(items)
 User.create(user)
 List.create(lists)
+ListItem.create(joiner)
