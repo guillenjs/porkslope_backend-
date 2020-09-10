@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :list_items
   resources :lists
   resources :users
   resources :items

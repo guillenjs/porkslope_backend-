@@ -157,5 +157,34 @@ items = [
 
 ]
 
+user = [
+    {
+        name: "Jorge",
+        location: "Brooklyn"
+    },
+    {
+        name: "Claire",
+        location: "Brooklyn"
+    }
+]
+
+lists = [
+    {
+    date: "Thu Sep 10 2020 14:51:25 GMT-0400 (Eastern Daylight Time)",
+    user_id: 1
+    },
+    {
+    date: "Thu Sep 10 2020 14:51:25 GMT-0400 (Eastern Daylight Time)",
+    user_id: 2
+    },
+    {
+    date: "Thu Sep 10 2020 14:51:25 GMT-0400 (Eastern Daylight Time)",
+    user_id: 1
+    }
+]
+
+
 Category.create(categories)
 Item.create(items)
+User.create(user)
+List.create(lists)
