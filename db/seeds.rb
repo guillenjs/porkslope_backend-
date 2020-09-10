@@ -11,50 +11,112 @@ categories = [{
 },
 {
     name:"cheese"
-}
+},
+{
+    name:"vegetables"
+},
+{
+    name:"fish"
+},
+{
+    name:"meat"
+},
+{
+    name:"products"
+},
+{
+    name:"coffee"
+},
+
 ]
 
 
-items = [{
-  name: "apple",
-  price: 20,
-  category_id: 1
-},
-{
-  name: "banana",
-  price: 10,
-  category_id: 1
-},
-{
-  name: "kiwi",
-  price: 6,
-  category_id: 1
-},
-{
-  name: "pineapple",
-  price: 5,
-  category_id: 1
-},
-{
-  name: "mozarella",
-  price: 20,
-  category_id: 2
-},
-{
-  name: "brie",
-  price: 10,
-  category_id: 2
-},
-{
-  name: "oaxaca",
-  price: 6,
-  category_id: 2
-},
-{
-  name: "cheddar",
-  price: 5,
-  category_id: 2
-},
+items = [{ name: "apple", price: 2, category_id: 1},
+{ name: "banana", price: 2, category_id: 1},
+{ name: "kiwi", price: 6, category_id: 1 },
+{ name: "pineapple", price: 5, category_id: 1 },
+{ name: "peach", price: 2, category_id: 1},
+{ name: "plum", price: 1, category_id: 1},
+{ name: "passionfruit", price: 6, category_id: 1 },
+{ name: "blueberries", price: 5, category_id: 1 },
+{ name: "raspberries", price: 5, category_id: 1},
+{ name: "coconut", price: 5, category_id: 1},
+{ name: "watermelon", price: 10, category_id: 1 },
+{ name: "melon", price: 5, category_id: 1 },
+{ name: "nectarine", price: 2, category_id: 1},
+{ name: "mango", price: 3, category_id: 1},
+{ name: "orange", price: 2, category_id: 1 },
+{ name: "mandarin", price: 1, category_id: 1 },
+
+{ name: "mozarella", price: 8, category_id: 2},
+{ name: "brie", price: 5, category_id: 2},
+{ name: "oaxaca", price: 6, category_id: 2},
+{ name: "camambert", price: 5, category_id: 2},
+{ name: "fresh farm cheese", price: 20, category_id: 2},
+{ name: "chevre", price: 5, category_id: 2},
+{ name: "monteray jack", price: 6, category_id: 2},
+{ name: "gouda", price: 5, category_id: 2},
+{ name: "parmegiano-reggiano", price: 20, category_id: 2},
+{ name: "manchego", price: 5, category_id: 2},
+{ name: "Feta", price: 6, category_id: 2},
+{ name: "cheddar", price: 5, category_id: 2},
+{ name: "meunster", price: 7, category_id: 2},
+{ name: "cotija", price: 5, category_id: 2},
+{ name: "swiss", price: 6, category_id: 2},
+{ name: "telggio", price: 5, category_id: 2},
+
+{ name: "tomatoe", price: 1, category_id: 3},
+{ name: "bell pepper", price: 2, category_id: 3},
+{ name: "onion", price: 1, category_id: 3},
+{ name: "celery", price: 2, category_id: 3},
+{ name: "aparagus", price: 30, category_id: 3},
+{ name: "cabbage", price: 3, category_id: 3},
+{ name: "scapes", price: 6, category_id: 3},
+{ name: "garlic", price: 3, category_id: 3},
+{ name: "shallots", price: 1, category_id: 3},
+{ name: "kale", price: 3, category_id: 3},
+{ name: "chives", price: 6, category_id: 3},
+{ name: "fennel", price: 2, category_id: 3},
+{ name: "broccoli", price: 5, category_id: 3},
+{ name: "carrot", price: 2, category_id: 3},
+{ name: "spinach", price: 6, category_id: 3},
+{ name: "radish", price: 2, category_id: 3},
+
+{ name: "branzino", price: 5, category_id: 4},
+{ name: "tilapia", price: 8, category_id: 4},
+{ name: "salmon", price: 7, category_id: 4},
+{ name: "tuna", price: 8, category_id: 4},
+{ name: "perch", price: 9, category_id: 4},
+{ name: "catfish", price: 9, category_id: 4},
+{ name: "mackerel", price: 6, category_id: 4},
+{ name: "sardines", price: 4, category_id: 4},
+{ name: "snapper", price: 7, category_id: 4},
+{ name: "cod", price: 4, category_id: 4},
+{ name: "halibut", price: 6, category_id: 4},
+{ name: "anchovies", price: 8, category_id: 4},
+{ name: "herring", price: 7, category_id: 4},
+{ name: "trout", price: 8, category_id: 4},
+{ name: "swordfish", price: 6, category_id: 4},
+{ name: "grouper", price: 9, category_id: 4},
+
+{ name: "Whole chicken", price: 15, category_id: 5},
+{ name: "chicken breast", price: 5, category_id: 5},
+{ name: "chicken legs", price: 4, category_id: 5},
+{ name: "chicken thighs", price: 4, category_id: 5},
+{ name: "chicken wings", price: 2, category_id: 5},
+{ name: "ribeye steak", price: 9, category_id: 5},
+{ name: "skirt steak", price: 6, category_id: 5},
+{ name: "flank steak", price: 5, category_id: 5},
+{ name: "porkchop", price: 7, category_id: 5},
+{ name: "chorizo", price: 5, category_id: 5},
+{ name: "italian sausage", price: 6, category_id: 5},
+{ name: "spicy italian sausage", price: 8, category_id: 5},
+{ name: "lamb", price: 7, category_id: 5},
+{ name: "lambchops", price: 8, category_id: 5},
+{ name: "venison", price: 6, category_id: 5},
+{ name: "turkey", price: 9, category_id: 5},
+
+
 ]
 
 Category.create(categories)
