@@ -32,7 +32,7 @@ categories = [{
 
 
 items = [
-    # fruits
+   
     { name: "apple", price: 2, category_id: 1},
     { name: "banana", price: 2, category_id: 1},
     { name: "kiwi", price: 6, category_id: 1 },
@@ -50,7 +50,7 @@ items = [
     { name: "orange", price: 2, category_id: 1 },
     { name: "mandarin", price: 1, category_id: 1 },
 
-    #cheese
+  
     { name: "mozarella", price: 8, category_id: 2},
     { name: "brie", price: 5, category_id: 2},
     { name: "oaxaca", price: 6, category_id: 2},
@@ -68,7 +68,6 @@ items = [
     { name: "swiss", price: 6, category_id: 2},
     { name: "telggio", price: 5, category_id: 2},
 
-    #vegetables
     { name: "tomatoe", price: 1, category_id: 3},
     { name: "bell pepper", price: 2, category_id: 3},
     { name: "onion", price: 1, category_id: 3},
@@ -86,7 +85,7 @@ items = [
     { name: "spinach", price: 6, category_id: 3},
     { name: "radish", price: 2, category_id: 3},
 
-    #fish
+  
     { name: "branzino", price: 5, category_id: 4},
     { name: "tilapia", price: 8, category_id: 4},
     { name: "salmon", price: 7, category_id: 4},
@@ -104,7 +103,6 @@ items = [
     { name: "swordfish", price: 6, category_id: 4},
     { name: "grouper", price: 9, category_id: 4},
 
-    #meat
     { name: "Whole chicken", price: 15, category_id: 5},
     { name: "chicken breast", price: 5, category_id: 5},
     { name: "chicken legs", price: 4, category_id: 5},
@@ -122,7 +120,7 @@ items = [
     { name: "venison", price: 6, category_id: 5},
     { name: "turkey", price: 9, category_id: 5},
 
-    #prodocts
+  
     { name: "handSanitizer", price: 15, category_id: 6},
     { name: "surgical Mask", price: 30, category_id: 6},
     { name: "toothpaste", price: 4, category_id: 6},
@@ -140,7 +138,6 @@ items = [
     { name: "paper towels", price: 6, category_id: 6},
     { name: "dishwasher soap", price: 9, category_id: 6},
 
-    #coffeee
     { name: "parlor coffee", price: 15, category_id: 7},
     { name: "counter culture ", price: 15, category_id: 7},
     { name: "variety", price: 16, category_id: 7},
@@ -183,20 +180,20 @@ lists = [
     }
 ]
 
-joiner = [
-    { list_id: 1, item_id: 1},
-    { list_id: 1, item_id: 20},
-    { list_id: 1, item_id: 40},
-    { list_id: 1, item_id: 3},
-    { list_id: 1, item_id: 10},
-    { list_id: 1, item_id: 80},
-    { list_id: 1, item_id: 60},
-    { list_id: 1, item_id: 11},
-]
+# joiner = [
+#     { list_id: 1, item_id: 1},
+#     { list_id: 1, item_id: 20},
+#     { list_id: 1, item_id: 40},
+#     { list_id: 1, item_id: 3},
+#     { list_id: 1, item_id: 10},
+#     { list_id: 1, item_id: 80},
+#     { list_id: 1, item_id: 60},
+#     { list_id: 1, item_id: 11},
+# ]
 
 
 Category.create(categories)
 Item.create(items)
 User.create(user)
 List.create(lists)
-ListItem.create(joiner)
+# ListItem.create(joiner)

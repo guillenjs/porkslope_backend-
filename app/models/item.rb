@@ -1,4 +1,4 @@
 class Item < ApplicationRecord
   belongs_to :category
-  belongs_to :list_item
+  has_many :list_item
 end
